@@ -6,9 +6,9 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --bg-color: #F0EDF2;
+  --primary-color: #9266B2;
+  --secondary-color: #7C47A2;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -40,6 +40,7 @@ a:hover {
 }
 body {
   font-family: var(--font-family);
+  background-color: #F8F7F9;
 }
 
 nav {
@@ -51,7 +52,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: #E5DDEA;
+  opacity: 0.9;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -153,8 +155,8 @@ nav ul li {
   margin-top: 2rem;
 }
 .project-pic {
-  width: 65%;
-  height: 60%;
+  width: 70%;
+  height: 55%;
 }
 .projects-container {
   display: flex;
@@ -181,6 +183,7 @@ nav ul li {
 }
 .project-card {
   background-color: #fff;
+  height: 450px;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
