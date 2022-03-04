@@ -10,8 +10,6 @@
 
     <!-- Favicons -->
 
-<!-- <a href="https://www.flaticon.com/free-icons/flower-bud" title="flower bud icons">Flower bud icons created by Vitaly Gorbachev - Flaticon</a> -->
-
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -40,7 +38,6 @@
            <li><a href="#about" class="nav-link">Présentation</a></li>
            <li><a href="#skills" class="nav-link">Compétences</a></li>
            <li><a href="#projects" class="nav-link">Projets</a></li>
-           <li><a href="#contact" class="nav-link">Contact</a></li>
          </ul>
          <button class="burger-menu" id="burger-menu">
            <ion-icon class="bars" name="menu-outline"></ion-icon>
@@ -80,24 +77,18 @@
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-         <h2 class="skill-header">My Top Skills</h2>
+         <h2 class="skill-header">Compétences</h2>
 
          <div class="skills-wrapper">
            <div class="first-set animate__animated animate__pulse">
              <img
-               src="img/lilac.png"
+               src="img/python.png"
                alt=""
                loading="lazy"
                class="icon icon-card"
              />
              <img
-               src="img/lilac.png"
-               alt=""
-               loading="lazy"
-               class="icon icon-card"
-             />
-             <img
-               src="img/lilac.png"
+               src="img/java.png"
                alt=""
                loading="lazy"
                class="icon icon-card"
@@ -106,19 +97,33 @@
 
            <div class="second-set animate__animated animate__pulse">
              <img
-               src="img/lilac.png"
+               src="img/html.png"
                alt=""
                loading="lazy"
                class="icon icon-card"
              />
              <img
-               src="img/lilac.png"
+               src="img/css.png"
                alt=""
                loading="lazy"
                class="icon icon-card"
              />
              <img
-               src="img/lilac.png"
+               src="img/script-java.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-card"
+             />
+           </div>
+           <div class="second-set animate__animated animate__pulse">
+             <img
+               src="img/code-php.png"
+               alt=""
+               loading="lazy"
+               class="icon icon-card"
+             />
+             <img
+               src="img/sql.png"
                alt=""
                loading="lazy"
                class="icon icon-card"
@@ -129,7 +134,7 @@
 
     <!-- Projects section -->
     <section class="projects" id="projects">
-          <h2 class="projects-title">Some of my Recent Projects</h2>
+          <h2 class="projects-title">Projets</h2>
           <div class="projects-container">
             <div class="project-container project-card">
               <img
@@ -138,13 +143,11 @@
                 loading="lazy"
                 class="project-pic"
               />
-              <h3 class="project-title">Expense Tracker</h3>
+              <h3 class="project-title">Komposita</h3>
               <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                Alias!
+                Projet JAVA permettant de repérer automatiquement les mots composés allemands et d'indiquer les mots qui les composent et d'obtenir leur POS à partir d'un énoncé.
               </p>
-              <a href="#" target="_blank" class="project-link">Check it Out</a>
+              <a href="https://wiki.lezinter.net/_/Projets:Mots_compos%C3%A9s_en_allemand" target="_blank" class="project-link">En savoir plus</a> • <a href="https://gricad-gitlab.univ-grenoble-alpes.fr/rakotocy/komposita" class="project-link">Git</a>
             </div>
             <div class="project-container project-card">
               <img
@@ -153,13 +156,11 @@
                 loading="lazy"
                 class="project-pic"
               />
-              <h3 class="project-title">Netflix Clone</h3>
+              <h3 class="project-title">Encodage des liaisons WikiColor</h3>
               <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                Alias!
+                Identifier automatiquement les liaisons du français dans un texte et les annoter en indiquant le phonème de liaison correspondant.
               </p>
-              <a href="#" target="_blank" class="project-link">Check it Out</a>
+              <a href="https://alem.hypotheses.org/549" target="_blank" class="project-link">En savoir plus</a> • <a href="https://gricad-gitlab.univ-grenoble-alpes.fr/pedagogies-multimodales/aligneur-phonographemique/-/tree/master/projet_professionnel" class="project-link">Git</a>
             </div>
             <div class="project-container project-card">
               <img
@@ -168,96 +169,38 @@
                 loading="lazy"
                 class="project-pic"
               />
-              <h3 class="project-title">Greeny Earth</h3>
+              <h3 class="project-title">Anonymisation</h3>
               <p class="project-details">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-                ratione vel inventore labore commodi modi quos culpa aut saepe!
-                Alias!
+                Ce programme a pour but d'anonymiser des données personelles (nom, adresse, etc). Il a été conçu à partir d'annonces immobilières postées sur le site Leboncoin.
               </p>
-              <a href="#" target="_blank" class="project-link">Check it Out</a>
+              <a href="Anonymisation.pdf" target="_blank" class="project-link">En savoir plus</a> • <a href="https://github.com/Ning107/Anonymisation" class="project-link">Git</a>
             </div>
           </div>
         </section>
 
-    <!-- Contact section -->
-    <section class="contact" id="contact">
-          <h2>Get In Touch With Me</h2>
-          <div class="contact-form-container">
-        <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
-            <div class="form-control">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Enter Your Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Enter Your Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <label for="message">Message</label>
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Enter Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Submit"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form>
-        </div>
-      </div>
-    </section>
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
           <a href="#" target="_blank"
             ><img
-              src="img/lilac.png"
-              alt="Twitter"
+              src="img/github.png"
+              alt="Github"
               loading="lazy"
               class="socicon"
           /></a>
           <a href="#" target="_blank"
             ><img
-              src="img/lilac.png"
-              alt="Instagram"
+              src="img/gitlab.png"
+              alt="Gitlab"
               loading="lazy"
               class="socicon"
           /></a>
           <a href="#" target="_blank"
             ><img
-              src="img/lilac.png"
+              src="img/linkedin.png"
               alt="Linkedin"
               loading="lazy"
               class="socicon"
-          /></a>
-          <a href="#" target="_blank"
-            ><img
-            src="img/lilac.png"
-            alt="Github"
-            class="socicon"
           /></a>
       </div>
 
@@ -278,6 +221,10 @@
               >Kolade Chris (Ksound)</a
             >
           </p>
+          <a href="https://www.flaticon.com/fr/icones-gratuites/java" title="icônes compétences">Icônes compétences créées par Flat Icons - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/gitlab" title="gitlab icons">Gitlab icons created by Freepik - Flaticon</a>
+          <a href="https://www.flaticon.com/free-icons/flower-bud" title="flower bud icons">Flower bud icons created by Vitaly Gorbachev - Flaticon</a>
     </footer>
 
     <!-- Website scripts -->
